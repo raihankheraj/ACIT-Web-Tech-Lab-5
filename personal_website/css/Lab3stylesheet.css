@@ -1,24 +1,9 @@
-@media screen and (max-width: 960px){
 
-  .courses{
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-  .course-section{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    height: 110px;
-  }
-  .right-area{
-    grid-row: 1;
-  }
-  .links{
-    display: block;
-  }
+
+hr{
+  border: solid 1px grey;
+  width: 100%;
 }
-
-
 
 body {
   background-color: beige;
@@ -63,6 +48,24 @@ img {
   text-indent: 8px;
 }
 
+@media screen and (max-width: 960px){
+
+  .courses{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .course-section{
+    display: flex;
+    flex-direction: column;
+    height: 110px;
+  }
+  .right-area{
+    grid-row: 1;
+  }
+  .links{
+    display: block;
+  }
+}
 
 
 
